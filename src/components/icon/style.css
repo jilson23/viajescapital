@@ -1,0 +1,12 @@
+.icon{
+    box-shadow: gray 5px 5px 5px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    text-decoration: none;
+}
+.icon span{
+    margin-top: 1rem;
+}
