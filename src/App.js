@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Reservas from './components/reservas';
-import whapptrip from './components/whapptrip';
+import Whapptrip from './components/whapptrip';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <img src='./SVG/logo.svg' className="App-logo" alt="logo" />
       </header>
       <Reservas />
-      <whapptrip />
+      <Whapptrip />
     </div>
   );
 }
