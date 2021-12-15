@@ -9,6 +9,34 @@
     border-radius: 1rem;
 }
 
+.whapptrip .contenedor ul{
+    padding-top: 31px;
+    display: block;
+    margin-left: 40px
+}
+
 .whapptrip .contenedor .background{
-    background: red;
+    background: url('./wapptrip.jpg');
+    background-repeat: no-repeat;
+    background-position: 90% 100%;
+    height: 426px;
+    background-size: contain;
+    position: relative;
+}
+
+.whapptrip .contenedor ul{
+    color: #1b75bb;
+    list-style-type: disclosure-closed;
+}
+
+.whapptrip .contenedor a{
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    color: white;
+    background: #9ad82e;
+    display: inline-block;
+    padding: .5rem;
+    border-radius: .5rem;
+    text-decoration: none;
 }

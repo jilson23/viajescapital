@@ -13,6 +13,7 @@ const Whapptrip = () => {
                         <li>Millas</li>
                         <li>Check in</li>
                     </ul>
+                    <a href='https://web.whatsapp.com/send?phone=573168468279&text=%27,%20%27' target='_blank' rel="noreferrer">Pregunta</a>
                 </div>
             </div>
         </div>
