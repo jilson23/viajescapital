@@ -1,0 +1,14 @@
+.whapptrip{
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+    
+}
+.whapptrip .contenedor{
+    background: #eda0a8;
+    border-radius: 1rem;
+}
+
+.whapptrip .contenedor .background{
+    background: red;
+}
