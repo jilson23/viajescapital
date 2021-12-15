@@ -1,4 +1,13 @@
-.App {
+
+
+header img{
+  width: 200px;
+  margin: 1rem auto;
+  display: block;
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +44,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

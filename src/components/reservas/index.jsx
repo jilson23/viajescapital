@@ -3,28 +3,60 @@ import './style.css'
 
 const reservas = [
     {
-        enlace:'https://google.com',
+        enlace:'http://reservas.viajescapital.com/buscar/vuelos/',
         icono: './SVG/1.svg',
-        title:'1'
+        title:'Vuelos'
     },
     {
-        enlace:'google2.com',
+        enlace:'http://reservas.viajescapital.com/buscar/multi/',
         icono: './SVG/2.svg',
-        title:'1'
+        title:'Paquetes'
     },
     {
-        enlace:'google2.com',
+        enlace:'http://reservas.viajescapital.com/buscar/hoteles/',
         icono: './SVG/3.svg',
-        title:'1'
+        title:'Hoteles'
+    },
+    {
+        enlace:'http://reservas.viajescapital.com/buscar/buses/',
+        icono: './SVG/4.svg',
+        title:'Buses'
+    },
+    {
+        enlace:'http://reservas.viajescapital.com/buscar/paquetes/',
+        icono: './SVG/5.svg',
+        title:'Vacaciones'
+    },
+    {
+        enlace:'http://reservas.viajescapital.com/buscar/autos/',
+        icono: './SVG/6.svg',
+        title:'Autos'
+    },
+    {
+        enlace:'http://reservas.viajescapital.com/buscar/experiencias/',
+        icono: './SVG/7.svg',
+        title:'Experiencias'
+    },
+    {
+        enlace:'http://reservas.viajescapital.com/buscar/cruceros/',
+        icono: './SVG/8.svg',
+        title:'Crucerso'
+    },
+    {
+        enlace:'http://reservas.viajescapital.com/buscar/seguros-de-viaje/',
+        icono: './SVG/9.svg',
+        title:'Asistencias'
     }
 ];
 
 const Reservas = ( ) => {
     return(
     <>
-        <h1>Reservas</h1>
+        <a href='http://reservas.viajescapital.com/' target='_blank' className="titulo-reserva" rel="noreferrer">
+        <img src='./SVG/date.svg' alt="" />
+        <h1> Reservas</h1>
+        </a>
         <div className='reservas'>
-            
             {
                 reservas.map( (reserva) => {    
                     return (

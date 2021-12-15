@@ -1,5 +1,5 @@
 .icon{
-    box-shadow: gray 5px 5px 5px;
+    box-shadow: #1b75bb4D 0px 0px 10px;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -9,4 +9,8 @@
 }
 .icon span{
     margin-top: 1rem;
+}
+.icon{
+    color: #1b75bb;
+    text-align: center;
 }

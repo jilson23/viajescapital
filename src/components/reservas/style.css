@@ -1,7 +1,43 @@
+body{
+    padding: 1rem;
+}
+
 .reservas{
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+
+.titulo-reserva{
+    background-color: #1b75bb;
+    color: white;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    max-width: 1200px;
+    margin: 1rem auto;
+    text-decoration: none;
+}
+
+.titulo-reserva img{
+    width: 50px;
+}
+
+@media (min-width:768px) {
+    .reservas{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width:1200px) {
+    .reservas{
+        grid-template-columns: repeat(9, 1fr);
+    }
 }
