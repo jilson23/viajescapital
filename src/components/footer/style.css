@@ -23,7 +23,7 @@ footer h4{
     margin: 0;
 }
 
-@media (min-height:768px) {
+@media (min-width:768px) {
     footer{
         grid-template-columns: repeat(4, 1fr);
     } 
