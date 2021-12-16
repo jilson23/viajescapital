@@ -1,0 +1,30 @@
+footer{
+    background-color: #1b75bb;
+    max-width: 1200px;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    color:white;
+}
+footer div{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    align-items: center;
+}
+footer img{
+    display: block;
+    width: 50px;
+}
+
+footer h4{
+    margin: 0;
+}
+
+@media (min-height:768px) {
+    footer{
+        grid-template-columns: repeat(4, 1fr);
+    } 
+}

@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import Footer from './components/footer';
 import Reservas from './components/reservas';
 import Whapptrip from './components/whapptrip';
 
@@ -11,6 +12,7 @@ function App() {
       </header>
       <Reservas />
       <Whapptrip />
+      <Footer />
     </div>
   );
 }
