@@ -6,7 +6,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     background-color: #f8f8f8;
     padding: 1rem;
@@ -33,6 +33,11 @@ body{
 @media (min-width:768px) {
     .reservas{
         grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (min-width:536px){
+    .reservas{
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
