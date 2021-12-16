@@ -6,11 +6,13 @@ footer{
     display: grid;
     grid-template-columns: 1fr;
     color:white;
+    padding: 1rem;
+    gap: 1rem;
+    box-sizing: border-box;
 }
 footer div{
     display: flex;
     gap: 1rem;
-    padding: 1rem;
     box-sizing: border-box;
     align-items: center;
 }
@@ -23,8 +25,26 @@ footer h4{
     margin: 0;
 }
 
-@media (min-height:768px) {
+footer a{
+    color: #fff
+}
+
+footer a.phone{
+    padding: 0.8rem;
+    border-radius: 0 2rem 2rem 0;
+    border-right: solid 3px white;
+    border-top: solid 3px white;
+    border-bottom: solid 3px white;
+}
+
+@media (min-width:768px) {
     footer{
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: 4fr 2fr 2fr;
+    } 
+}
+
+@media (min-width:992px) {
+    footer{
+        grid-template-columns: 3fr 2fr 1fr 2fr;
     } 
 }

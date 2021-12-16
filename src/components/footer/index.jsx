@@ -12,15 +12,19 @@ const Footer = () =>{
             </div>
             <div>
                 <img src="./SVG/phonecall.svg" alt="" />
-                <span>+57 +2 379-9441</span>
+                <a className='phone' href="http:cel">+57 +2 379-9441</a>
             </div>
             <div>
-                <img src="./SVG/facebook.svg" alt="" />
-                <img src="./SVG/instagram.svg" alt="" />
+                <a href="facevbool.com">
+                    <img src="./SVG/facebook.svg" alt="" />
+                </a>
+                <a href="facevbool.com">
+                    <img src="./SVG/instagram.svg" alt="" />
+                </a>
             </div>
             <div>
                 <img src="./SVG/mail.svg" alt="" />
-                <p>info@viajescapital.com</p>
+                <a href='mail:info@viajescapital.com'>info@viajescapital.com</a>
             </div>
             
         </footer>
