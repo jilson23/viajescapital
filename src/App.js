@@ -2,7 +2,7 @@
 import './App.css';
 import Footer from './components/footer';
 import Reservas from './components/reservas';
-import Whapptrip from './components/whapptrip';
+import Whapptrip from './components/whapptrip2';
 
 function App() {
   return (
