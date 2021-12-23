@@ -1,13 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Inicio from './pages/inicio';
+import Nosotros from './pages/nosotros';
+import Visas from './pages/visas';
+import Promovacaciones from './components/promovacaciones';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />}>
+        <Route index element={<Inicio />} />
+        <Route path="promovacaciones" element={<Promovacaciones />} />
+        <Route path="visas" element={<Visas />} />
+        <Route path="nosotros" element={<Nosotros />} />
+      </Route>
+    </Routes>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

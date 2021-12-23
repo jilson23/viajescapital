@@ -1,8 +1,6 @@
-// import logo from './logo.svg';
 import './App.css';
+import {Outlet, Link} from 'react-router-dom'
 import Footer from './components/footer';
-import Reservas from './components/reservas';
-import Whapptrip from './components/whapptrip';
 
 function App() {
   return (
@@ -10,9 +8,14 @@ function App() {
       <header className="header">
         <img src='./SVG/logo.svg' className="App-logo" alt="logo" />
       </header>
-      <Reservas />
-      <Whapptrip />
+      
+      <Link to="/">inicio</Link>
+      <Link to="/nosotros">nosotros</Link>
+      <Link to="/visas">visas</Link>
+      <Link to="/promovacaciones">promo</Link>
+      <Outlet />
       <Footer />
+      
     </div>
   );
 }
