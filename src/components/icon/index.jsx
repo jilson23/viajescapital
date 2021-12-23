@@ -2,7 +2,7 @@
 import './style.css'
 const Icon = ({enlace, icon, title}) =>{
  return (
-    <a href={enlace} target='_blank' className="icon" rel="noreferrer">
+    <a href={enlace} className="icon">
         <img src={icon} alt="" />
         <span>{title}</span>
  </a>)

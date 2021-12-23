@@ -40,7 +40,7 @@ const reservas = [
     {
         enlace:'http://reservas.viajescapital.com/buscar/cruceros/',
         icono: './SVG/8.svg',
-        title:'Crucerso'
+        title:'Cruceros'
     },
     {
         enlace:'http://reservas.viajescapital.com/buscar/seguros-de-viaje/',
@@ -52,7 +52,7 @@ const reservas = [
 const Reservas = ( ) => {
     return(
     <>
-        <a href='http://reservas.viajescapital.com/' target='_blank' className="titulo-reserva" rel="noreferrer">
+        <a href='http://reservas.viajescapital.com/' className="titulo-reserva">
         <img src='./SVG/date.svg' alt="" />
         <h1> Reservas</h1>
         </a>
