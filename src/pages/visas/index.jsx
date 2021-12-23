@@ -1,6 +1,8 @@
+import './style.css'
+
 function Visas() {
     return(
-        <div>
+        <div className="Visas">
             <h1>Visas</h1>
         </div>
     )

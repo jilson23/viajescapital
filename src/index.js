@@ -11,7 +11,7 @@ import reportWebVitals from './reportWebVitals';
 import Inicio from './pages/inicio';
 import Nosotros from './pages/nosotros';
 import Visas from './pages/visas';
-import Promovacaciones from './components/promovacaciones';
+import Promovacaciones from './pages/promovacaciones';
 
 
 ReactDOM.render(

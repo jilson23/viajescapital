@@ -1,6 +1,5 @@
-header img{
-    width: 200px;
-    margin: 1rem auto;
-    display: block;
-  }
-  
+.Inicio{
+  display: block;
+  margin: 0 auto;
+  max-width: 1200px;
+}

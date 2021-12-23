@@ -1,6 +1,7 @@
+import './style.css'
 function Nosotros() {
     return(
-        <div>
+        <div className="Nosotros">
             <h1>nosotros</h1>
         </div>
     )
