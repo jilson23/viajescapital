@@ -1,3 +1,49 @@
-.promovacaciones{
+.Promovacaciones h2{
+    color: #1b75ba;
+}
 
+.Promovacaciones__contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Promovacaciones__card{
+    background-color: #f8f8f8;
+    border-radius: 1rem;
+    padding: 1rem;
+    max-width: 300px;
+}
+.Promovacaciones__header{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+}
+.Promovacaciones__titulos h3{
+    margin: 0;
+    color: #1b75ba;
+}
+.Promovacaciones__titulos h4{
+    margin: 0;
+    font-size: .9rem;
+    font-weight: 400;
+    color: #1b75ba;
+}
+.Promovacaciones__body{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.Promovacaciones__body p{
+    color: #91a2af;
+}
+
+.Promovacaciones__link{
+    color: white;
+    background: #9ad82e;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 1rem;
 }
