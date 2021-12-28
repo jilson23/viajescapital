@@ -3,7 +3,6 @@
     margin: 1rem auto;
     position: relative;
 }
-
 .Promovacaciones-page__titulo{
     background-color: #1b75bb;
     color: white;
@@ -18,8 +17,34 @@
 .Promovacaciones-page__titulo img{
     width: 50px;
 }
-
-.Promovacaciones-page h2{
+.Promovacaciones-page__contenedor{
+    padding: 1rem;
+}
+.Promovacaciones-page__contenedor hr{
+    border-bottom: solid 1px #99d72e;
+    margin-top: 2rem;
+}
+.Promovacaciones-page__contenedor:last-child hr{
+    border: none
+}
+.Promovacaciones-page__image{
+    border-radius: 1rem;
+    max-width: 100%;
+}
+.Promovacaciones-page__description h3{
     color: #1b75ba;
-    text-align: center;
+}
+.Promovacaciones-page__description p{
+    color: #91a2af;
+}
+
+@media (min-width:768px) {
+    .Promovacaciones-page__body{
+        display: flex;
+        gap:1rem;
+    }
+    .Promovacaciones-page__image{
+        border-radius: 1rem;
+        width: 300px;
+    }
 }
