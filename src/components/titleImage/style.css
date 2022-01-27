@@ -1,0 +1,23 @@
+.Titleimage{
+    color: #1b75bb;
+}
+.Titleimage h1{
+    font-size: 1.5rem;
+}
+
+
+.Titleimage img{
+    border-radius: 1rem;
+    max-width: 100%;
+    object-fit: cover;
+    height: 485px;
+}
+
+@media (min-width: 768px) {
+    .Titleimage img{
+        border-radius: 1rem;
+        max-width: 100%;
+        object-fit: cover;
+        height: auto;
+    }  
+}

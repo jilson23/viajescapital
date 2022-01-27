@@ -4,7 +4,7 @@ import { Link, Outlet } from 'react-router-dom'
 const enlaces = [
     {
         title:"USA",
-        link:"usa"
+        link:"./"
     },
     {
         title:"Canada",

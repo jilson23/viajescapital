@@ -1,10 +1,16 @@
 import './style.css'
 import TituloLinea from '../../../components/tituloLinea'
+import Notas from '../../../components/notas'
+import Advertence from '../../../components/advertence'
+import Download from '../../../components/download'
+import Titleimage from '../../../components/titleImage'
+
 const NuevaZelanda = () =>{
     return(
     <div className="NuevaZelanda">
         
-        <h1>NuevaZelanda</h1>
+        <Titleimage title='Tramite VISA Nueva Zelanda' image='../img/nuevazelanda.jpg' />
+
         <ul>
             <li>El trámite se debe realizar ante el VAC en Washington D.C.</li>
             <li>Centro de Postulación de Visas - VAC en Washington DC</li>
@@ -30,18 +36,12 @@ const NuevaZelanda = () =>{
             <li>Para menores de edad: Registro de nacimiento, certificado de estudios y autorización de salida del país cuando viaje sólo o con uno de sus padres.</li>
             <li>Si es invitado: Adjuntar formulario «Sponsorship Form for Visiting New Zealand» y adjuntar la información requerida en dicho contrato. La Embajada solo recibe documentos originales o copias notariadas.</li>
         </ul>
-        <div className="advertencia">
-            Si el oficial de inmigración lo solicita, los postulantes deberán presentar una traducción certificada de cualquier otro documento no escrito en inglés y en apoyo de una postulación a una visa de entrada temporal.
+        <div className="grid3">
+        <Advertence content=" Si el oficial de inmigración lo solicita, los postulantes deberán presentar una traducción certificada de cualquier otro documento no escrito en inglés y en apoyo de una postulación a una visa de entrada temporal." />
+        <Download content="Descargar formulario" />
+        <Download content="Descargar formulario adicional" />
         </div>
-
-        <div className="descarga">
-            Descargar formulario
-        </div>
-
-        <div className="descarga">
-            Descargar formulario adicional
-        </div>
-
+        
         <TituloLinea titulo="Derechos Consulares" />
         <ul>
             <li>Valor de la visa USD 120</li>
@@ -52,19 +52,11 @@ const NuevaZelanda = () =>{
         </ul>
         <TituloLinea titulo="NOTAS" />
 
-<div className="notas">
-Los colombianos están exentos de visa de tránsito por Nueva Zelanda.
-</div>
-<div className="notas">
-“
-Los formularios que estén incompletos serán devueltos al postulante y rechazado el tramite.
-”
-</div>
-<div className="notas">
-“La embajada puede solicitar información adicional y entrevista al postulante si lo considera necesario.
-”
-</div>
-
+        <div className="grid3">
+            <Notas contenido="Los colombianos están exentos de visa de tránsito por Nueva Zelanda." />
+            <Notas color="green" contenido="Los formularios que estén incompletos serán devueltos al postulante y rechazado el tramite." />
+            <Notas color="white" contenido="La embajada puede solicitar información adicional y entrevista al postulante si lo considera necesario." />
+        </div>
     </div>
     )
 }

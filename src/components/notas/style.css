@@ -1,0 +1,31 @@
+.Notas{
+    background-color: #1b75bb;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    
+}
+.Notas::before{
+    content: '”';
+    display: block;
+    font-size: 2rem;
+    text-align: left;
+}
+.Notas::after{
+    content: '”';
+    display: block;
+    font-size: 2rem;
+    text-align: right;
+}
+
+.Notas--green{
+    background-color: #9ad82e;
+    color: #1b75bb;
+}
+
+.Notas--white{
+    background-color: #f8f8f8;
+    color: #1b75bb;
+}

@@ -12,7 +12,7 @@ function Inicio() {
         <Whapptrip />
         {
           data.map((card) => (
-          <Card title={card.title}
+          <Card key={card.title} title={card.title}
             titleCard={card.titleCard}
             subTitleCard={card.subTitleCard}
             body={card.body}

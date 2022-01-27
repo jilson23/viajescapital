@@ -26,7 +26,7 @@ ReactDOM.render(
         <Route index element={<Inicio />} />
         <Route path="promovacaciones" element={<Promovacaciones />} />
         <Route path="visas" element={<Visas />}>
-          <Route path="usa" element={<Usa />} />
+          <Route index element={<Usa />} />
           <Route path="canada" element={<Canada />} />
           <Route path="reinounido" element={<ReinoUnido />} />
           <Route path="nuevazelanda" element={<NuevaZelanda />} />

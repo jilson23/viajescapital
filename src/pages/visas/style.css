@@ -32,6 +32,10 @@
 .Visas__titulo img{
     width: 50px;
 }
+
+.Visas li{
+    line-height: 1.3;
+}
 /*
 .Visas__contenedor{
     padding: 1rem;

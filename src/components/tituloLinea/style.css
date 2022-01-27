@@ -5,6 +5,7 @@
 .TituloLinea h2{
     color: #1b75bb;
     white-space: nowrap;
+    font-size: 1.2rem;
 }
 .TituloLinea span{
     width: 100%;

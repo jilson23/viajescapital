@@ -1,0 +1,20 @@
+.Download{
+    background-color: #1b75bb;
+    padding: 1rem;
+    color: white;
+    text-align: justify;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Download img{
+    height: 50px;
+    width: auto;
+    margin-top: 1rem ;
+}
