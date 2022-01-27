@@ -12,7 +12,12 @@ import Inicio from './pages/inicio';
 import Nosotros from './pages/nosotros';
 import Visas from './pages/visas';
 import Promovacaciones from './pages/promovacaciones';
-
+import Usa from './pages/visas/usa';
+import Canada from './pages/visas/canada';
+import Australia from './pages/visas/australia';
+import China from './pages/visas/china';
+import NuevaZelanda from './pages/visas/nuevaZelanda';
+import ReinoUnido from './pages/visas/reinoUnido';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -20,7 +25,14 @@ ReactDOM.render(
       <Route path="/" element={<App />}>
         <Route index element={<Inicio />} />
         <Route path="promovacaciones" element={<Promovacaciones />} />
-        <Route path="visas" element={<Visas />} />
+        <Route path="visas" element={<Visas />}>
+          <Route path="usa" element={<Usa />} />
+          <Route path="canada" element={<Canada />} />
+          <Route path="reinounido" element={<ReinoUnido />} />
+          <Route path="nuevazelanda" element={<NuevaZelanda />} />
+          <Route path="china" element={<China />} />
+          <Route path="australia" element={<Australia />} />
+        </Route>
         <Route path="nosotros" element={<Nosotros />} />
       </Route>
     </Routes>

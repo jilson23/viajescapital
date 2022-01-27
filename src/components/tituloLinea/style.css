@@ -1,0 +1,13 @@
+.TituloLinea{
+    display: flex;
+    align-items: baseline;
+}
+.TituloLinea h2{
+    color: #1b75bb;
+    white-space: nowrap;
+}
+.TituloLinea span{
+    width: 100%;
+    background: #9ad82e;
+    height: 2px;
+}

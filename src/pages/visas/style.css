@@ -3,3 +3,64 @@
     margin: 1rem auto;
     position: relative;
 }
+
+.Visas__button{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.Visas__button a{
+    text-decoration: none;
+    border-radius: 1rem;
+    background-color: #9ad82e;
+    padding: .5rem 1rem;
+    color: white;
+}
+ .Visas__titulo{
+    background-color: #1b75bb;
+    color: white;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    max-width: 1200px;
+    margin: 1rem auto;
+    text-decoration: none;
+}
+.Visas__titulo img{
+    width: 50px;
+}
+/*
+.Visas__contenedor{
+    padding: 1rem;
+}
+.Visas__contenedor hr{
+    border-bottom: solid 1px #99d72e;
+    margin-top: 2rem;
+}
+.Visas__contenedor:last-child hr{
+    border: none
+}
+.Visas__image{
+    border-radius: 1rem;
+    max-width: 100%;
+}
+.Visas__description h3{
+    color: #1b75ba;
+}
+.Visas__description p{
+    color: #91a2af;
+}
+
+@media (min-width:768px) {
+    .Visas__body{
+        display: flex;
+        gap:1rem;
+    }
+    .Visas__image{
+        border-radius: 1rem;
+        width: 300px;
+    }
+} */
