@@ -1,18 +1,13 @@
-import './style.css'
+import './style.css';
 
-const Notas = ({contenido, color='blue' }) =>{
-
+const Notas = ({ children, color = 'blue' }) => {
     const style = {
         blue: 'Notas',
         green: 'Notas Notas--green',
-        white: 'Notas Notas--white'
-    }
+        white: 'Notas Notas--white',
+    };
 
-    return (
-        <div className={style[color]}>
-            {contenido}
-        </div>
-    )
-}
+    return <div className={style[color]}>{children}</div>;
+};
 
 export default Notas;

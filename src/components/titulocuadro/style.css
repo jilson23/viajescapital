@@ -1,0 +1,10 @@
+.TituloCuadro {
+    background-color: #1b75bb;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    width: 100%;
+    box-sizing: border-box;
+}
