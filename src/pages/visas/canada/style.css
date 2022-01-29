@@ -1,0 +1,25 @@
+.Canada table tr:first-child {
+    background-color: #194eb0;
+    color: #fff;
+}
+
+.Canada table,
+.Canada td,
+.Canada th {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.Canada td {
+    padding: 8px;
+    border-width: 0 1px 1px 0;
+}
+
+.Canada table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin-bottom: 24px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.2857142857;
+}

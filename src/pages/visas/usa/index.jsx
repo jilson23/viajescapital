@@ -1,3 +1,4 @@
+import './style.css';
 import Titleimage from '../../../components/titleImage';
 import TituloLinea from '../../../components/tituloLinea';
 import Notas from '../../../components/notas';
@@ -105,11 +106,17 @@ const Usa = () => {
                 Bancolombia Cuenta de Ahorros # 7571669257-4 a nombre de Viajes Capital
                 S.A.S.
             </p>
-            <h3>Pago tarjeta débito:</h3> <button>Pagar</button>
-            <h3>Pago tarjeta crédito:</h3> <button>Pagar</button>
+            <div className="Usa__debito">
+                <h3>Pago tarjeta débito:</h3>{' '}
+                <a href="https://www.zonapagos.com/t_viajescapital/pagos.asp">Pagar</a>
+            </div>
+
             <TituloLinea titulo="Formulario para Visa Americana" />
-            <Download content="Descargar Formulario" />
-            <Notas color="green">
+            <Download
+                content="Descargar Formulario"
+                link="../document/Formato-Actualizado-Visa-EEUU_editable.pdf"
+            />
+            <Notas color="white">
                 Todo se puede enviar al correo documentacion@viajescapital.com o enviado a
                 la siguiente direcccion Av 5 a norte 25-18 Local 11 piso 2 C.C. Calicentro
                 norte (Sector La Pasarella)

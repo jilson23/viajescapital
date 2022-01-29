@@ -1,0 +1,12 @@
+.Usa__debito {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.Usa__debito a {
+    text-decoration: none;
+    border-radius: 1rem;
+    background-color: #9ad82e;
+    padding: 0.5rem 1rem;
+    color: white;
+}
