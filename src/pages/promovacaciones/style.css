@@ -1,49 +1,49 @@
-.Promovacaciones-page{
+.Promovacaciones-page {
     max-width: 1200px;
     margin: 1rem auto;
     position: relative;
 }
-.Promovacaciones-page__titulo{
+.Promovacaciones-page__titulo {
     background-color: #1b75bb;
     color: white;
     border-radius: 1rem;
     display: flex;
     justify-content: center;
-    gap:2rem;
+    gap: 2rem;
     max-width: 1200px;
     margin: 1rem auto;
     text-decoration: none;
 }
-.Promovacaciones-page__titulo img{
-    width: 50px;
+.Promovacaciones-page__titulo img {
+    width: 70px;
 }
-.Promovacaciones-page__contenedor{
+.Promovacaciones-page__contenedor {
     padding: 1rem;
 }
-.Promovacaciones-page__contenedor hr{
-    border-bottom: solid 1px #99d72e;
+.Promovacaciones-page__contenedor hr {
     margin-top: 2rem;
+    border: solid 1px #99d72e;
 }
-.Promovacaciones-page__contenedor:last-child hr{
-    border: none
+.Promovacaciones-page__contenedor:last-child hr {
+    border: none;
 }
-.Promovacaciones-page__image{
+.Promovacaciones-page__image {
     border-radius: 1rem;
     max-width: 100%;
 }
-.Promovacaciones-page__description h3{
+.Promovacaciones-page__description h3 {
     color: #1b75ba;
 }
-.Promovacaciones-page__description p{
+.Promovacaciones-page__description p {
     color: #91a2af;
 }
 
-@media (min-width:768px) {
-    .Promovacaciones-page__body{
+@media (min-width: 768px) {
+    .Promovacaciones-page__body {
         display: flex;
-        gap:1rem;
+        gap: 1rem;
     }
-    .Promovacaciones-page__image{
+    .Promovacaciones-page__image {
         border-radius: 1rem;
         width: 300px;
     }
