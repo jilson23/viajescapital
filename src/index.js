@@ -18,10 +18,14 @@ import Australia from './pages/visas/australia';
 import China from './pages/visas/china';
 import NuevaZelanda from './pages/visas/nuevaZelanda';
 import ReinoUnido from './pages/visas/reinoUnido';
+import ScrollToTop from './components/scrollToTop';
+
 
 ReactDOM.render(
   <BrowserRouter>
+  <ScrollToTop />
     <Routes>
+      
       <Route path="/" element={<App />}>
         <Route index element={<Inicio />} />
         <Route path="promovacaciones" element={<Promovacaciones />} />

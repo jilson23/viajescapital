@@ -2,8 +2,6 @@ import './App.css';
 import {Outlet, Link, useLocation } from 'react-router-dom'
 import Footer from './components/footer';
 
-
-
 function App() {
   const { pathname } = useLocation();
   return (
@@ -14,11 +12,6 @@ function App() {
         }
       <Link to="/"><img className="header__logo" src='./SVG/logo.svg' alt="logo" /></Link>
       </header>
-      
-      {/* <Link to="/">inicio</Link>
-      <Link to="/nosotros">nosotros</Link>
-      <Link to="/visas">visas</Link>
-      <Link to="/promovacaciones">promo</Link> */}
       <Outlet />
       <Footer />
       
