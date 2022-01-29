@@ -68,31 +68,36 @@ const China = () => {
             </ul>
 
             <TituloLinea titulo="NOTAS ADICIONALES" />
-            <Notas>
-                La visa por múltiples entradas se otorga presentando fotocopia de visas de
-                negocios (f) anteriores, carta de invitación oficial de china o en el caso
-                de que el aplicante tenga establecida una empresa en china, presentar
-                fotocopia del documento de su empresa registrada allá o documentos de su
-                domicilio o residencia en china.
-            </Notas>
-            <Notas color="green">
-                Las personas que visitan Hong Kong y requieren ingresar a china, deben
-                solicitar el visado chino en su país con anterioridad al viaje. Las
-                personas que visitan Hong Kong y requieren ingresar a china, deben
-                solicitar el visado chino en su país con anterioridad al viaje.
-            </Notas>
-            <Notas color="white">
-                Los extranjeros residentes en Colombia pueden solicitar la visa
-                presentando junto con los demás documentos requeridos, fotocopia de su
-                cédula de extranjería y visa colombiana.
-            </Notas>
-            <Notas>
-                Las personas con pasaporte oficial y diplomático no requieren visa.
-            </Notas>
-            <Notas color="green">
-                Caso Hong Kong: los colombianos que viajan a Hong Kong y su estadía va a
-                ser menos de 90 días, no requieren visa.
-            </Notas>
+            <div className="grid3">
+                <Notas>
+                    La visa por múltiples entradas se otorga presentando fotocopia de
+                    visas de negocios (f) anteriores, carta de invitación oficial de china
+                    o en el caso de que el aplicante tenga establecida una empresa en
+                    china, presentar fotocopia del documento de su empresa registrada allá
+                    o documentos de su domicilio o residencia en china.
+                </Notas>
+                <Notas color="green">
+                    Las personas que visitan Hong Kong y requieren ingresar a china, deben
+                    solicitar el visado chino en su país con anterioridad al viaje. Las
+                    personas que visitan Hong Kong y requieren ingresar a china, deben
+                    solicitar el visado chino en su país con anterioridad al viaje.
+                </Notas>
+                <Notas color="white">
+                    Las personas con pasaporte oficial y diplomático no requieren visa.
+                </Notas>
+            </div>
+            <div className="grid2">
+                <Notas>
+                    Los extranjeros residentes en Colombia pueden solicitar la visa
+                    presentando junto con los demás documentos requeridos, fotocopia de su
+                    cédula de extranjería y visa colombiana.
+                </Notas>
+                <Notas color="green">
+                    Caso Hong Kong: los colombianos que viajan a Hong Kong y su estadía va
+                    a ser menos de 90 días, no requieren visa.
+                </Notas>
+            </div>
+
             <p>Este tramite demora 5 dias hábiles.</p>
 
             <TituloLinea titulo="Precios por persona" />
@@ -101,7 +106,10 @@ const China = () => {
                 <li>Valor tramite por 2 entradas $ 377.000</li>
             </ul>
             <TituloLinea titulo="Formulario para Visa China" />
-            <Download content="Descargar Formulario" />
+            <Download
+                content="Descargar Formulario"
+                link="../document/formulario-visa-china-pass.pdf"
+            />
         </div>
     );
 };

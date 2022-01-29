@@ -42,7 +42,11 @@ const Australia = () => {
                 recreación o visitar a familiares y amigos. Si solicita la visa en
                 Australia, debe estar en Australia cuando la visa sea decidida. Si
                 solicita la cita fuera de Australia, usted debe estar fuera de Australia
-                cuando la visa sea decidida. Adjuntar formulario 1419.
+                cuando la visa sea decidida. Adjuntar{' '}
+                <a href="https://chile.embassy.gov.au/files/scle/1419spa.pdf">
+                    formulario 1419
+                </a>
+                .
             </p>
 
             <TituloCuadro content="Categoría visita de negocios" />
@@ -59,17 +63,19 @@ const Australia = () => {
                 debe tener un patrocinador a quien se le pueda pedir una garantía. Usted
                 debe estar fuera de Australia cuando postule y cuando la visa sea
                 decidida. No podrá solicitar otra visa durante su estadía en Australia.
-                Para mayor información, visite nuestra página Web en inglés: Sponsored
-                family Stream.
             </p>
 
-            <TituloCuadro content="Categoría Familiar Patrocinador" />
+            <TituloCuadro content="Visas de Tránsito" />
             <p>
                 Si usted pasa en tránsito hacia otro país debe solicitar la visa de
                 tránsito. La visa de tránsito es gratuita y le permite salir del
                 aeropuerto y permanecer hasta 3 días (no más de 72 horas) en la ciudad de
                 arribo de Australia, la información correspondiente se encuentra en el
-                siguiente enlace.
+                siguiente{' '}
+                <a href="https://chile.embassy.gov.au/sclecastellano/visatransito.html">
+                    enlace
+                </a>
+                .
             </p>
             <TituloLinea titulo="Derechos Consulares" />
             <ul>

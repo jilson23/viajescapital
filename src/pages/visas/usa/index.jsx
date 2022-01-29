@@ -72,16 +72,20 @@ const Usa = () => {
                     </a>
                 </li>
             </ul>
-            <Notas>
-                Para Inicar el Tramite solo se nesecita la Foto 5x5 Fondo Blanco, Copia
-                del Pasaporte donde estan los Datos Biometricos y el Formulario Borrador
-                que esta adjunto, los demas documentos se nesecitan al final ya cuando
-                este listo el Ds-160 y el Us Info.
-            </Notas>
-            <Notas color="green">
-                Para renovacion se requiere pasaporte original, el Formulario Borrador,
-                una foto 5x5 fondo blanco fisica y en CD o enviada por correo.
-            </Notas>
+            <div className="grid2">
+                <Notas>
+                    Para Inicar el Tramite solo se nesecita la Foto 5x5 Fondo Blanco,
+                    Copia del Pasaporte donde estan los Datos Biometricos y el Formulario
+                    Borrador que esta adjunto, los demas documentos se nesecitan al final
+                    ya cuando este listo el Ds-160 y el Us Info.
+                </Notas>
+                <Notas color="green">
+                    Para renovacion se requiere pasaporte original, el Formulario
+                    Borrador, una foto 5x5 fondo blanco fisica y en CD o enviada por
+                    correo.
+                </Notas>
+            </div>
+
             <TituloLinea titulo="Precios por persona" />
             <ul>
                 <li>Valor derechos Consulares $ 160 Usd.</li>
@@ -112,15 +116,17 @@ const Usa = () => {
             </div>
 
             <TituloLinea titulo="Formulario para Visa Americana" />
-            <Download
-                content="Descargar Formulario"
-                link="../document/Formato-Actualizado-Visa-EEUU_editable.pdf"
-            />
-            <Notas color="white">
-                Todo se puede enviar al correo documentacion@viajescapital.com o enviado a
-                la siguiente direcccion Av 5 a norte 25-18 Local 11 piso 2 C.C. Calicentro
-                norte (Sector La Pasarella)
-            </Notas>
+            <div className="grid2">
+                <Download
+                    content="Descargar Formulario"
+                    link="../document/Formato-Actualizado-Visa-EEUU_editable.pdf"
+                />
+                <Notas color="white">
+                    Todo se puede enviar al correo documentacion@viajescapital.com o
+                    enviado a la siguiente direcccion Av 5 a norte 25-18 Local 11 piso 2
+                    C.C. Calicentro norte (Sector La Pasarella)
+                </Notas>
+            </div>
         </div>
     );
 };

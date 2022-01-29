@@ -89,10 +89,9 @@ const NuevaZelanda = () => {
                     Embajada solo recibe documentos originales o copias notariadas.
                 </li>
             </ul>
-            <div className="grid3">
+            <div className="grid2">
                 <Advertence content="Si el oficial de inmigración lo solicita, los postulantes deberán presentar una traducción certificada de cualquier otro documento no escrito en inglés y en apoyo de una postulación a una visa de entrada temporal." />
-                <Download content="Descargar formulario" />
-                <Download content="Descargar formulario adicional" />
+                <Download content="Descargar formulario" link="../document/inz1017.pdf" />
             </div>
 
             <TituloLinea titulo="Derechos Consulares" />

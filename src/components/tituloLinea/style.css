@@ -1,11 +1,13 @@
 .TituloLinea {
     display: flex;
     align-items: baseline;
+    gap: 0.5rem;
 }
 .TituloLinea__titulo {
     color: #1b75bb;
     white-space: nowrap;
     font-size: 1.2rem;
+    margin: 0;
 }
 
 .TituloLinea__titulo--wrap {

@@ -80,7 +80,10 @@ const ReinoUnido = () => {
             </p>
 
             <TituloLinea titulo="Formulario para Visa Reino Unido" />
-            <Download content="Descargar Formulario" />
+            <Download
+                content="Descargar Formulario"
+                link="../document/FORMULARIO-BORRADOR-UK.docx"
+            />
         </div>
     );
 };

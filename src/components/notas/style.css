@@ -5,6 +5,7 @@
     text-align: center;
     border-radius: 1rem;
     margin: 1rem auto;
+    position: relative;
 }
 
 .Notas::before {
@@ -19,6 +20,9 @@
     display: block;
     font-size: 2rem;
     text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
 }
 
 .Notas--green {

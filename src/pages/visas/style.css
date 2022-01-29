@@ -44,9 +44,33 @@
 }
 .Visas hr {
     color: #9ad82e;
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
 }
+
+.Visas .grid3 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.Visas .grid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 750px) {
+    .Visas .grid3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+    .Visas .grid2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}
+
 /*
 .Visas__contenedor{
     padding: 1rem;
