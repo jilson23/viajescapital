@@ -8,9 +8,9 @@ function App() {
     <div className="App">
       <header className="header">
         {
-          pathname !== '/' ? <Link to="/"> <img className='header__back' src="./SVG/back.svg" alt="" /> </Link> : null
+          pathname !== '/' ? <Link to="/"> <img className='header__back' src="SVG/back.svg" alt="" /> </Link> : null
         }
-      <Link to="/"><img className="header__logo" src='./SVG/logo.svg' alt="logo" /></Link>
+      <Link to="/"><img className="header__logo" src='SVG/logo.svg' alt="logo" /></Link>
       </header>
       <Outlet />
       <Footer />
