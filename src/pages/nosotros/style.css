@@ -1,5 +1,21 @@
-.Nosotros{
-    max-width: 1200px;
-    margin: 1rem auto;
-    position: relative;
+.Nosotros {
+  max-width: 1200px;
+  margin: 1rem auto;
+  position: relative;
+  color: #92a3b0;
+}
+
+.Nosotros__buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.Nosotros__buttons a {
+  text-decoration: none;
+  border-radius: 1rem;
+  background-color: #9ad82e;
+  padding: 0.5rem 1rem;
+  color: white;
 }

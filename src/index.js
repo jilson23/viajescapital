@@ -19,13 +19,15 @@ import China from './pages/visas/china';
 import NuevaZelanda from './pages/visas/nuevaZelanda';
 import ReinoUnido from './pages/visas/reinoUnido';
 import ScrollToTop from './components/scrollToTop';
-
+import Normatividad from './pages/nosotros/normatividad'
+import Politicas from './pages/nosotros/politicas'
+import Sostenibilidad from './pages/nosotros/sostenibilidad'
+import Protocolo from './pages/nosotros/protocolo'
 
 ReactDOM.render(
   <BrowserRouter>
   <ScrollToTop />
     <Routes>
-      
       <Route path="/" element={<App />}>
         <Route index element={<Inicio />} />
         <Route path="promovacaciones" element={<Promovacaciones />} />
@@ -37,7 +39,12 @@ ReactDOM.render(
           <Route path="china" element={<China />} />
           <Route path="australia" element={<Australia />} />
         </Route>
-        <Route path="nosotros" element={<Nosotros />} />
+        <Route path="nosotros" element={<Nosotros />}> 
+          <Route index element={<Normatividad />} />
+          <Route path="politicas" element={<Politicas />} />
+          <Route path="sostenibilidad" element={<Sostenibilidad />} />
+          <Route path="protocolo" element={<Protocolo />} />
+        </Route>
       </Route>
     </Routes>
   </BrowserRouter>,

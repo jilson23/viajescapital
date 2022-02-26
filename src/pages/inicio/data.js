@@ -12,6 +12,13 @@ const Data =[
         subTitleCard: "Toda la info que necesitas para los tramites de tu visa",
         body:"Americana, Canadiense, China, Reino unido, Australia y Nueva Zelanda.",
         link:"/visas"
+    },
+    {
+        title:"Nosotros",
+        titleCard: "¿Quiénes somos?",
+        subTitleCard: "Somos una Oficina de Turismo basada en:",
+        body:"Eficiencia y Transparencia de todos nuestros servicios.",
+        link:"/nosotros"
     }
 ]
 

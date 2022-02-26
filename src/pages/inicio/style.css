@@ -1,5 +1,10 @@
-.Inicio{
+.Inicio {
   display: block;
   margin: 0 auto;
   max-width: 1200px;
+}
+.Inicio__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
 }
