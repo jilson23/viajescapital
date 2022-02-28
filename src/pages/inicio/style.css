@@ -5,6 +5,18 @@
 }
 .Inicio__cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 15px;
+}
+
+@media (min-width: 500px) {
+  .Inicio__cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 800px) {
+  .Inicio__cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

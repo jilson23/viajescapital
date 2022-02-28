@@ -40,7 +40,7 @@ ReactDOM.render(
           <Route path="australia" element={<Australia />} />
         </Route>
         <Route path="nosotros" element={<Nosotros />}> 
-          <Route index element={<Normatividad />} />
+          <Route path="normatividad" element={<Normatividad />} />
           <Route path="politicas" element={<Politicas />} />
           <Route path="sostenibilidad" element={<Sostenibilidad />} />
           <Route path="protocolo" element={<Protocolo />} />

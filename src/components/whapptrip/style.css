@@ -1,30 +1,40 @@
-.whapptrip{
-    position: relative;
+.whapptrip {
+  position: relative;
+}
+
+.whapptrip h2 {
+  color: #1b75ba;
+  margin-bottom: 0;
+}
+
+.whapptrip h3 {
+  color: #91a2af;
+  margin-top: 0;
 }
 
 .whapptrip img {
-    object-fit: cover;
-    max-width: 100%;
-    height: 400px;
-    object-position: 100% 0;
-    border-radius: 1rem;
+  object-fit: cover;
+  max-width: 100%;
+  height: 538px;
+  object-position: center;
+  border-radius: 1rem;
 }
 
-.whapptrip a{
-    position: absolute;
-    right: 1rem;
-    bottom: 1rem;
-    color: white;
-    background: #9ad82e;
-    display: inline-block;
-    padding: .5rem;
-    border-radius: .5rem;
-    text-decoration: none;
-    font-size: 1.3rem;
+.whapptrip a {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  color: white;
+  background: #9ad82e;
+  display: inline-block;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: 1.3rem;
 }
 
-@media (min-width:500px){
-    .whapptrip img {
-        height: 544px;
-    }
-}
+/* @media (min-width: 500px) {
+  .whapptrip img {
+    height: 544px;
+  }
+} */

@@ -7,7 +7,7 @@ import { Link, Outlet } from 'react-router-dom';
 const enlaces = [
   {
     title: 'Normatividad',
-    link: '',
+    link: 'normatividad',
   },
   {
     title: 'Políticas',
@@ -26,7 +26,11 @@ const enlaces = [
 function Nosotros() {
   return (
     <div className="Nosotros">
-      <Titleimage title="Nosotros" image="../img/nuevazelanda.jpg" />
+      <div className="Nosotros__titulo">
+        <img src="./SVG/visas.svg" alt="" />
+        <h2>Nosotros</h2>
+      </div>
+      <img className="Nosotros__image" src="../img/girl-beach.jpg" alt="" />
       <p>
         Somos una Oficina de Turismo basada en la Eficiencia y transparencia de todos
         nuestros servicios, siendo siempre eficaces en todas las fases en las que se
@@ -37,7 +41,7 @@ function Nosotros() {
         Trabajamos con nuestro equipo humano altamente calificado en servicio real
         diseñando viajes a tu medida.
       </p>
-      <img src="" alt="" />
+      <img className="Nosotros__image" src="../img/cuple-beach.jpg" alt="" />
       <hr />
       <h2>¿Por qué asesoramos sus vacaciones?</h2>
       <p>
@@ -45,6 +49,7 @@ function Nosotros() {
         diseñamos los mejores programas con la referencia de las maravillosas experiencias
         de nuestros viajeros.
       </p>
+      <img className="Nosotros__image" src="../img/compass.jpg" alt="" />
       <TituloLinea titulo="Nuestra Misión" />
 
       <p>
@@ -52,13 +57,13 @@ function Nosotros() {
         diseñamos los mejores programas con la referencia de las maravillosas experiencias
         de nuestros viajeros.
       </p>
-
+      <img className="Nosotros__image" src="../img/hourglass.jpg" alt="" />
       <TituloLinea titulo="Nuestra Visión" />
       <p>
         Para el 2025 ser los Mayores referentes de Turismo Nacional destacándonos por la
         Efectividad de Nuestros Servicios, trayendo bienestar a nuestro equipo humano.
       </p>
-      <Titleimage title="Nuestra Normatividad" image="../img/nuevazelanda.jpg" />
+      <Titleimage title="Nuestra Normatividad" image="../img/hammer-lawyer.jpg" />
       <p>
         Rechazamos la explotación, la pornografía, el turismo sexual y demás formas de
         abuso sexual con menores. Contribuimos al cumplimiento de la ley 679 de 2001, y la
