@@ -5,6 +5,7 @@ import Whapptrip from '../../components/whapptrip';
 import Slider from '../../components/slider';
 import data from './data';
 import hotels from './hotels';
+import cruises from './cruises';
 
 function Inicio() {
   return (
@@ -28,6 +29,7 @@ function Inicio() {
       <h2>Cadenas Hoteleras Aliadas</h2>
       <Slider data={hotels} />
       <h2>Trabajamos con estos cruceros</h2>
+      <Slider data={cruises} />
     </div>
   );
 }
