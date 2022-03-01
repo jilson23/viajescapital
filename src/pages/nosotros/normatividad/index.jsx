@@ -5,7 +5,10 @@ function Normatividad() {
   return (
     <div className="Normatividad">
       <TituloLinea titulo="Normatividad" />
-      <Download content="Descargar PDF Normatividad" link="../document/inz1017.pdf" />
+      <Download
+        content="Descargar PDF Normatividad"
+        link="../document/normatividad.pdf"
+      />
     </div>
   );
 }

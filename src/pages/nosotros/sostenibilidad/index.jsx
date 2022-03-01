@@ -1,9 +1,7 @@
 import './style.css';
-
 import TituloLinea from '../../../components/tituloLinea';
 import Download from '../../../components/download';
 import Notas from '../../../components/notas';
-import { Link } from 'react-router-dom';
 
 function Sostenibilidad() {
   return (
@@ -17,13 +15,16 @@ function Sostenibilidad() {
             <div className="Sostenibilidad__titulos">
               <h3>¿Quieres aprender a Reciclar?</h3>
               <p>Aquí todo lo que necesitas saber</p>
-              {/* <h4>{subTitleSostenibilidad}</h4> */}
             </div>
           </div>
           <div className="Sostenibilidad__body">
-            <Link className="Sostenibilidad__link" to="{link}">
+            <a
+              className="Sostenibilidad__link"
+              download
+              href="../document/como-reciclar.pptx"
+            >
               Como reciclar
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -31,17 +32,23 @@ function Sostenibilidad() {
       <div className="grid3">
         <div>
           <TituloLinea titulo="Patrimonio de Colombia para la humanidad" />
-          <Download content="Descargar PDF" link="../document/inz1017.pdf" />
+          <Download
+            content="Descargar PDF"
+            link="../document/PATRIMONIO-DE-COLOMBIA-PARA-LA-HUMANIDAD.jpeg"
+          />
         </div>
 
         <div>
           <TituloLinea titulo="Tips para proteger el Medio Ambiente" />
-          <Download content="Descargar PDF" link="../document/inz1017.pdf" />
+          <Download content="Descargar PDF" link="../document/TIPS-MEDIO-AMBIENTE.jpeg" />
         </div>
 
         <div>
           <TituloLinea titulo="Conoce nuestra Política de Sostenibilidad" />
-          <Download content="Descargar PDF" link="../document/inz1017.pdf" />
+          <Download
+            content="Descargar PDF"
+            link="../document/POLITICA-DE-SOSTENIBILIDAD.jpeg"
+          />
         </div>
       </div>
 
@@ -70,7 +77,7 @@ function Sostenibilidad() {
 
       <Download
         content="Ver Certificado de Calidad Turística"
-        link="../document/inz1017.pdf"
+        link="../document/certificado-sgs.jpeg"
       />
     </div>
   );

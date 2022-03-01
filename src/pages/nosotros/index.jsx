@@ -74,7 +74,7 @@ function Nosotros() {
       </p>
       <Download
         content="Ver Registro Nacional de Turismo"
-        link="../document/inz1017.pdf"
+        link="../document/rnt-viajes-capital-cali-2019.jpeg"
       />
 
       <div className="Nosotros__buttons">

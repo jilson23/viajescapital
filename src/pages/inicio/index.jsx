@@ -2,7 +2,9 @@ import './style.css';
 import Card from '../../components/card';
 import Reservas from '../../components/reservas';
 import Whapptrip from '../../components/whapptrip';
+import Slider from '../../components/slider';
 import data from './data';
+import hotels from './hotels';
 
 function Inicio() {
   return (
@@ -24,6 +26,7 @@ function Inicio() {
       </div>
       <hr className="green" />
       <h2>Cadenas Hoteleras Aliadas</h2>
+      <Slider data={hotels} />
       <h2>Trabajamos con estos cruceros</h2>
     </div>
   );
