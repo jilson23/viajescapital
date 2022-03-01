@@ -1,16 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+.body {
+  font-family: 'Roboto', sans-serif;
+}
+
+hr.green {
+  background: #9ad82e;
+  height: 2px;
+  border: none;
+}
+
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .header .header__logo {
-    width: 250px;
-    display: block;
+  width: 250px;
+  display: block;
 }
 
 .header .header__back {
-    width: 22px;
-    display: block;
+  width: 22px;
+  display: block;
 }

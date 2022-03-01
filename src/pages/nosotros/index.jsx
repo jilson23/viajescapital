@@ -27,7 +27,7 @@ function Nosotros() {
   return (
     <div className="Nosotros">
       <div className="Nosotros__titulo">
-        <img src="./SVG/visas.svg" alt="" />
+        <img src="/SVG/ourshome.svg" alt="" />
         <h2>Nosotros</h2>
       </div>
       <img className="Nosotros__image" src="../img/girl-beach.jpg" alt="" />
@@ -42,8 +42,8 @@ function Nosotros() {
         diseñando viajes a tu medida.
       </p>
       <img className="Nosotros__image" src="../img/cuple-beach.jpg" alt="" />
-      <hr />
-      <h2>¿Por qué asesoramos sus vacaciones?</h2>
+      <hr className="green" />
+      <h3>¿Por qué asesoramos sus vacaciones?</h3>
       <p>
         Definitivamente nos encanta Viajar es nuestra pasión y por ello día a día
         diseñamos los mejores programas con la referencia de las maravillosas experiencias

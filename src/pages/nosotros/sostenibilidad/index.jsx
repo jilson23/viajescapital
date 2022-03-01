@@ -16,11 +16,11 @@ function Sostenibilidad() {
             <img className="Sostenibilidad__img" src="../SVG/promovaca.svg" alt="" />
             <div className="Sostenibilidad__titulos">
               <h3>¿Quieres aprender a Reciclar?</h3>
+              <p>Aquí todo lo que necesitas saber</p>
               {/* <h4>{subTitleSostenibilidad}</h4> */}
             </div>
           </div>
           <div className="Sostenibilidad__body">
-            <p>Aquí todo lo que necesitas saber</p>
             <Link className="Sostenibilidad__link" to="{link}">
               Como reciclar
             </Link>

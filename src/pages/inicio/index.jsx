@@ -14,6 +14,7 @@ function Inicio() {
           <Card
             key={card.title}
             title={card.title}
+            image={card.image}
             titleCard={card.titleCard}
             subTitleCard={card.subTitleCard}
             body={card.body}
@@ -21,7 +22,9 @@ function Inicio() {
           />
         ))}
       </div>
-      <hr />
+      <hr className="green" />
+      <h2>Cadenas Hoteleras Aliadas</h2>
+      <h2>Trabajamos con estos cruceros</h2>
     </div>
   );
 }
