@@ -32,7 +32,7 @@ const Visas = () => {
   return (
     <div className="Visas">
       <div className="Visas__titulo">
-        <img src="./SVG/visas.svg" alt="" />
+        <img src="/SVG/visas.svg" alt="" />
         <h2>Trámites de Visas</h2>
       </div>
       <div className="Visas__button">

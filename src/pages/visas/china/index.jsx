@@ -6,7 +6,7 @@ import Download from '../../../components/download';
 const China = () => {
   return (
     <div className="China">
-      <Titleimage title="Trámite VISA China" image="../img/china.jpg" />
+      <Titleimage title="Trámite VISA China" image="./img/china.jpg" />
 
       <TituloLinea titulo="Requisitos VISA de turismo (L)" />
       <ul>
@@ -27,7 +27,7 @@ const China = () => {
           Contacto en China y Dirección Completa).
         </li>
         <li>Certificacion bancaria con saldo a la fecha.</li>
-        <li>Extractos bancarios de los 3 ultimos meses.</li>
+        <li>Extractos bancarios de los 3 últimos meses.</li>
       </ul>
 
       <TituloLinea titulo="Requisitos VISA de negocios (F)" />
@@ -60,22 +60,22 @@ const China = () => {
           Office In Colombia with this form).
         </li>
         <li>Certificacion bancaria con saldo a la fecha.</li>
-        <li>Extractos bancarios de los 3 ultimos meses.</li>
+        <li>Extractos bancarios de los 3 últimos meses.</li>
       </ul>
 
       <TituloLinea titulo="NOTAS ADICIONALES" />
       <div className="grid3">
         <Notas>
           La visa por múltiples entradas se otorga presentando fotocopia de visas de
-          negocios (f) anteriores, carta de invitación oficial de china o en el caso de
-          que el aplicante tenga establecida una empresa en china, presentar fotocopia del
+          negocios (f) anteriores, carta de invitación oficial de China o en el caso de
+          que el aplicante tenga establecida una empresa en China, presentar fotocopia del
           documento de su empresa registrada allá o documentos de su domicilio o
-          residencia en china.
+          residencia en China.
         </Notas>
         <Notas color="green">
-          Las personas que visitan Hong Kong y requieren ingresar a china, deben solicitar
+          Las personas que visitan Hong Kong y requieren ingresar a China, deben solicitar
           el visado chino en su país con anterioridad al viaje. Las personas que visitan
-          Hong Kong y requieren ingresar a china, deben solicitar el visado chino en su
+          Hong Kong y requieren ingresar a China, deben solicitar el visado chino en su
           país con anterioridad al viaje.
         </Notas>
         <Notas color="white">

@@ -7,11 +7,11 @@ import TituloLinea from '../../../components/tituloLinea';
 const ReinoUnido = () => {
   return (
     <div className="ReinoUnido">
-      <Titleimage title="Trámite VISA Reino Unido" image="../img/londres.jpg" />
+      <Titleimage title="Trámite VISA Reino Unido" image="./img/londres.jpg" />
       <Advertence content="Toda la documentación debe presentarse en Original y Copia" />
       <TituloLinea titulo="Requisitos VISA" />
       <ul>
-        <li>Pasaporte Biometrico o Electrónico con una validez mínima de 6 meses.</li>
+        <li>Pasaporte Biométrico o Electrónico con una validez mínima de 6 meses.</li>
         <li>2 Fotografías a color fondo blanco tamaño 3.5 x 4.5.</li>
         <li>
           Certificación Laboral indicando cargo, tiempo de servicio, salario y periodo de
@@ -43,7 +43,7 @@ const ReinoUnido = () => {
         Departamento de Fronteras del Reino Unido o si su vuelo de conexión es desde un
         aeropuerto diferente al que inicialmente se llegó.
       </Notas>
-      <TituloLinea titulo="Documentos adicionales para VISA de estudiantes" />
+      <TituloLinea wrap={true} titulo="Documentos adicionales para VISA de estudiantes" />
       <ul>
         <li>
           Diligenciar el formulario adicional para estudiantes. ( Additiona Student

@@ -6,7 +6,7 @@ import Download from '../../../components/download';
 const Australia = () => {
   return (
     <div className="Australia">
-      <Titleimage title="Trámite VISA Australia" image="../img/australia.jpg" />
+      <Titleimage title="Trámite VISA Australia" image="./img/australia.jpg" />
       <p>
         La Embajada de Australia informa que a partir del 9 de Mayo de 2014 ha puesto a
         disposición del público el sistema de postulación online para visas de turismo y

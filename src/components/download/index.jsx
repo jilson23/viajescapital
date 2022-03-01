@@ -7,7 +7,7 @@ const Download = ({ content, link = 'http://google.com' }) => {
           {content}
         </a>
       </p>
-      <img src="../SVG/download.svg" alt="" />
+      <img src="./SVG/download.svg" alt="" />
     </div>
   );
 };

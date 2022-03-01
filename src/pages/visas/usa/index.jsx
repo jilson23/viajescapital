@@ -7,7 +7,7 @@ import Download from '../../../components/download';
 const Usa = () => {
   return (
     <div className="Usa">
-      <Titleimage title="Trámite VISA Americana" image="../img/american.jpg" />
+      <Titleimage title="Trámite VISA Americana" image="./img/american.jpg" />
       <TituloLinea titulo="Requisitos" />
       <ul>
         <li>
@@ -72,13 +72,13 @@ const Usa = () => {
       <div className="grid2">
         <Notas>
           Para Inicar el Trámite solo se nesecita la Foto 5x5 Fondo Blanco, Copia del
-          Pasaporte donde estan los Datos Biometricos y el Formulario Borrador que esta
+          Pasaporte donde están los Datos Biométricos y el Formulario Borrador que esta
           adjunto, los demas documentos se nesecitan al final ya cuando este listo el
           Ds-160 y el Us Info.
         </Notas>
         <Notas color="green">
-          Para renovacion se requiere pasaporte original, el Formulario Borrador, una foto
-          5x5 fondo blanco fisica y en CD o enviada por correo.
+          Para renovación se requiere pasaporte original, el Formulario Borrador, una foto
+          5x5 fondo blanco física y en CD o enviada por correo.
         </Notas>
       </div>
 
@@ -86,7 +86,7 @@ const Usa = () => {
       <ul>
         <li>Valor derechos Consulares $ 160 Usd.</li>
       </ul>
-      <h3>Valor tramitologia y Asesoria:</h3>
+      <h3>Valor tramitología y Asesoría:</h3>
       <ul>
         <li>E.S.T.A $ 90.000</li>
         <li>Individual $ 100.000</li>
@@ -95,7 +95,7 @@ const Usa = () => {
         <li>Menor de 14 años $ 90.000</li>
         <li>Estudiante $ 150.000</li>
       </ul>
-      <p>Se pueden pagar en Efectivo o con Tarjeta de Credito</p>
+      <p>Se pueden pagar en Efectivo o con Tarjeta de Crédito</p>
       <h3>Para consignaciones:</h3>
       <p>
         Bancolombia Cuenta de Ahorros # 7571669257-4 a nombre de Viajes Capital S.A.S.

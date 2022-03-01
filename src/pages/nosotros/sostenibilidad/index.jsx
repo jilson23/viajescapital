@@ -11,7 +11,7 @@ function Sostenibilidad() {
       <div className="Sostenibilidad__contenedor">
         <div className="Sostenibilidad__card">
           <div className="Sostenibilidad__header">
-            <img className="Sostenibilidad__img" src="../SVG/promovaca.svg" alt="" />
+            <img className="Sostenibilidad__img" src="./SVG/promovaca.svg" alt="" />
             <div className="Sostenibilidad__titulos">
               <h3>¿Quieres aprender a Reciclar?</h3>
               <p>Aquí todo lo que necesitas saber</p>
@@ -54,7 +54,7 @@ function Sostenibilidad() {
 
       <TituloLinea titulo="Denuncia si encuentras alguna irregularidad" />
 
-      <img className="Nosotros__image" src="../img/orangutan.jpg" alt="" />
+      <img className="Nosotros__image" src="./img/orangutan.jpg" alt="" />
 
       <p>
         Denunciar ante las autoridades competentes irregularidades en el cumplimiento de
@@ -73,7 +73,7 @@ function Sostenibilidad() {
         <p>POLICÍA DE TURISMO: 6530202 - 350 304 5628 Intendente Salas.</p>
       </Notas>
 
-      <img className="Nosotros__image" src="../img/certificado-calidad.jpg" alt="" />
+      <img className="Nosotros__image" src="./img/certificado-calidad.jpg" alt="" />
 
       <Download
         content="Ver Certificado de Calidad Turística"
