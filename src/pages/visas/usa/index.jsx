@@ -44,7 +44,10 @@ const Usa = () => {
         <li>Tarjeta profesional o carnet universitario. (Copia)</li>
         <li>Si está estudiando actualmente anexar constancia estudiantil.</li>
       </ul>
-      <TituloLinea titulo="Requisitos adicionales para todas las solicitudes" />
+      <TituloLinea
+        wrap={true}
+        titulo="Requisitos adicionales para todas las solicitudes"
+      />
       <ul>
         <li>
           Pasaporte actual con un mínimo de seis meses de validez después de ingresar los
