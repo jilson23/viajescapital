@@ -6,7 +6,7 @@ import TituloLinea from '../../../components/tituloLinea';
 const Canada = () => {
   return (
     <div className="Canada">
-      <Titleimage title="Trámite VISA Canada" image="./img/canada.jpg" />
+      <Titleimage title="Trámite VISA Canada" image="/img/canada.jpg" />
 
       <TituloLinea titulo="Requisitos" />
       <p>

@@ -7,7 +7,7 @@ import TituloLinea from '../../../components/tituloLinea';
 const ReinoUnido = () => {
   return (
     <div className="ReinoUnido">
-      <Titleimage title="Trámite VISA Reino Unido" image="./img/londres.jpg" />
+      <Titleimage title="Trámite VISA Reino Unido" image="/img/londres.jpg" />
       <Advertence content="Toda la documentación debe presentarse en Original y Copia" />
       <TituloLinea titulo="Requisitos VISA" />
       <ul>

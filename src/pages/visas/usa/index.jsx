@@ -7,7 +7,7 @@ import Download from '../../../components/download';
 const Usa = () => {
   return (
     <div className="Usa">
-      <Titleimage title="Trámite VISA Americana" image="./img/american.jpg" />
+      <Titleimage title="Trámite VISA Americana" image="/img/american.jpg" />
       <TituloLinea titulo="Requisitos" />
       <ul>
         <li>

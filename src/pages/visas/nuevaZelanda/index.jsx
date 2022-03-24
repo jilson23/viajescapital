@@ -8,7 +8,7 @@ import Titleimage from '../../../components/titleImage';
 const NuevaZelanda = () => {
   return (
     <div className="NuevaZelanda">
-      <Titleimage title="Trámite VISA Nueva Zelanda" image="./img/nuevazelanda.jpg" />
+      <Titleimage title="Trámite VISA Nueva Zelanda" image="/img/nuevazelanda.jpg" />
       <ul>
         <li>El trámite se debe realizar ante el VAC en Washington D.C.</li>
         <li>Centro de Postulación de Visas - VAC en Washington DC</li>

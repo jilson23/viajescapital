@@ -6,7 +6,7 @@ import Download from '../../../components/download';
 const China = () => {
   return (
     <div className="China">
-      <Titleimage title="Trámite VISA China" image="./img/china.jpg" />
+      <Titleimage title="Trámite VISA China" image="/img/china.jpg" />
 
       <TituloLinea titulo="Requisitos VISA de turismo (L)" />
       <ul>
