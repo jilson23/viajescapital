@@ -1,0 +1,138 @@
+.RedBank {
+    padding: 1.5rem 0;
+}
+
+.RedBank input:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.RedBank input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.RedBank input[type=number]::-webkit-inner-spin-button,
+.RedBank input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.RedBank .frm .cr-wrap {
+    top: 0;
+}
+
+.RedBank .frm h2,
+.RedBank .frm p,
+.RedBank .frm .indicators {
+    display: none;
+}
+
+.RedBank .details {
+    background-color: #1b75bb;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.inputswrap {
+    width: 280px;
+    margin: 0 auto;
+}
+
+.RedBank .form-group {
+    margin-bottom: 1px;
+    position: relative;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.RedBank .form-group.inline .two-third:first-of-type {
+    padding-left: 0;
+    width: 70%;
+    position: relative;
+    padding-right: 1px;
+}
+
+.RedBank .form-group.inline .third:last-of-type {
+    padding-right: 0;
+    width: 30%;
+    position: relative;
+}
+
+.RedBank .form-group textarea {
+    width: 100%;
+    height: 160px;
+    color: #fff;
+    background: #4ea0f4;
+    border: none;
+}
+
+.RedBank .form-group textarea.active+label {
+    opacity: 0;
+}
+
+.RedBank .form-group input {
+    width: 100%;
+    height: 50px;
+    line-height: 40px;
+    border: none;
+    padding-left: 10px;
+    color: #fff;
+    background: #4ea0f4;
+    box-sizing: border-box;
+}
+
+.RedBank .form-group input::placeholder { color: white; }
+
+
+.RedBank .form-group input.active+label {
+    opacity: 0;
+}
+
+.RedBank .form-group label {
+    display: none;
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    font-size: 12px;
+    top: 15px;
+    text-transform: uppercase;
+}
+
+.RedBank span{
+    text-align: center;
+    display: block;
+    color:white;
+    margin-top: 1rem;
+}
+
+/* boton de comprar */
+
+.RedBank .js-payment-checkout {
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    display: block;
+    border-radius: 0 0 1rem 1rem;
+    background-color: #9ad82e;
+    color: white;
+    font-size: 16px;
+    padding: 1rem 0;
+    width: 100%;
+    border: none;
+    /* margin-bottom: -1.1rem; */
+}
+
+.RedBank h2 {
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 0;
+}
+
+.RedBank #response{
+    color: #9ad82e;
+    margin-top: 1rem;
+    text-align: center;
+}

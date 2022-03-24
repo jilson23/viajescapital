@@ -6,6 +6,7 @@ import Slider from '../../components/slider';
 import data from './data';
 import hotels from './hotels';
 import cruises from './cruises';
+import RedBank from '../../components/redBank';
 
 function Inicio() {
   return (
@@ -30,6 +31,7 @@ function Inicio() {
       <Slider data={hotels} />
       <h2>Trabajamos con estos cruceros</h2>
       <Slider data={cruises} />
+      <RedBank />
     </div>
   );
 }

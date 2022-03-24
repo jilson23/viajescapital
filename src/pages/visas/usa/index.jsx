@@ -117,7 +117,7 @@ const Usa = () => {
       <div className="grid2">
         <Download
           content="Descargar Formulario"
-          link="../document/Formato-Actualizado-Visa-EEUU_editable.pdf"
+          link="../document/Formato_Actualizado_Visa_EEUU_2019_Agosto_01.pdf"
         />
         <Notas color="white">
           Todo se puede enviar al correo documentacion@viajescapital.com o enviado a la
