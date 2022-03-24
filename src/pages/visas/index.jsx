@@ -3,28 +3,32 @@ import { Link, Outlet } from 'react-router-dom';
 
 const enlaces = [
   {
-    title: 'USA',
+    title: 'Visa USA',
     link: './',
   },
   {
-    title: 'Canada',
+    title: 'Visa Canada',
     link: 'canada',
   },
   {
-    title: 'China',
+    title: 'Visa China',
     link: 'china',
   },
   {
-    title: 'Australia',
+    title: 'Visa Australia',
     link: 'australia',
   },
   {
-    title: 'Reino Unido',
+    title: 'Visa Reino Unido',
     link: 'reinounido',
   },
   {
-    title: 'Nueva Zelanda',
+    title: 'Visa Nueva Zelanda',
     link: 'nuevazelanda',
+  },
+  {
+    title: 'Pasaporte Colombiano',
+    link: 'pasaporte',
   },
 ];
 
@@ -33,7 +37,7 @@ const Visas = () => {
     <div className="Visas">
       <div className="Visas__titulo">
         <img src="/SVG/visas.svg" alt="" />
-        <h2>Trámites de Visas</h2>
+        <h2>Trámites</h2>
       </div>
       <div className="Visas__button">
         {enlaces.map((enlace) => (

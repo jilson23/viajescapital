@@ -23,6 +23,7 @@ import Normatividad from './pages/nosotros/normatividad'
 import Politicas from './pages/nosotros/politicas'
 import Sostenibilidad from './pages/nosotros/sostenibilidad'
 import Protocolo from './pages/nosotros/protocolo'
+import Pasaporte from './pages/visas/pasaporte';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -38,6 +39,7 @@ ReactDOM.render(
           <Route path="nuevazelanda" element={<NuevaZelanda />} />
           <Route path="china" element={<China />} />
           <Route path="australia" element={<Australia />} />
+          <Route path="pasaporte" element={<Pasaporte />} />
         </Route>
         <Route path="nosotros" element={<Nosotros />}> 
           <Route path="normatividad" element={<Normatividad />} />

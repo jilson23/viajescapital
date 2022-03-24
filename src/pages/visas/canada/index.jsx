@@ -1,6 +1,6 @@
 import './style.css';
 import Titleimage from '../../../components/titleImage';
-// import Download from '../../../components/download';
+import Download from '../../../components/download';
 import TituloLinea from '../../../components/tituloLinea';
 
 const Canada = () => {
@@ -544,7 +544,10 @@ const Canada = () => {
         (PORQUE NO PRESENTAN HUELLAS, NO TIENEN QUE VENIR) Y estos se pueden pagar en el
         vfs Por tarjeta de débito o de crédito ((Visa/Mastercard).
       </p>
-      {/* <Download content="Descargar Formulario" /> */}
+      <Download
+        content="Descargar Formulario"
+        link="../document/FORMULARIO_VISA_CANADA.pdf"
+      />
     </div>
   );
 };
