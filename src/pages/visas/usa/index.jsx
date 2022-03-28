@@ -91,13 +91,15 @@ const Usa = () => {
       </ul>
       <h3>Valor tramitología y Asesoría:</h3>
       <ul>
-        <li>E.S.T.A $ 90.000</li>
-        <li>Individual $ 100.000</li>
-        <li>Familiar: $ 90.000</li>
-        <li>Renovación, Plan Canitas $ 120.000</li>
-        <li>Menor de 14 años $ 90.000</li>
-        <li>Estudiante $ 150.000</li>
+        <li>Individual: 200.000</li>
+        <li>2 personas 150.000</li>
+        <li>3 personas en adelante 100.000</li>
+        <li>Renovacion, Plan Canitas 180.000</li>
+        <li>2 personas en adelante 150.000 </li>
+        <li>Menor de 14 años 180.000</li>
+        <li>Estudiante: $ 180.000</li>
       </ul>
+
       <p>Se pueden pagar en Efectivo o con Tarjeta de Crédito</p>
       <h3>Para consignaciones:</h3>
       <p>

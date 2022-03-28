@@ -11,8 +11,6 @@ import RedBank from '../../components/redBank';
 function Inicio() {
   return (
     <div className="Inicio">
-      <Reservas />
-      <Whapptrip />
       <div className="Inicio__cards">
         {data.map((card) => (
           <Card
@@ -26,6 +24,8 @@ function Inicio() {
           />
         ))}
       </div>
+      <Reservas />
+      <Whapptrip />
       <hr className="green" />
       <h2>Cadenas Hoteleras Aliadas</h2>
       <Slider data={hotels} />

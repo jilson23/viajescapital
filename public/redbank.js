@@ -4,7 +4,7 @@ let paymentCheckout = new PaymentCheckout.modal({
   client_app_code: "VIAJESCAPITALSTG-GLP-CLIENT", // Application Code de las credenciales CLIENT
   client_app_key: "WjY2LnuZVAYMaKBxgS0I3REaoRcwcS", // Application Key de las credenciales CLIENT
   locale: "es", // Idioma preferido del usuario (es, en, pt). El inglés se usará por defecto
-  env_mode: "prod", // `prod`, `stg`, `local` para cambiar de ambiente. Por defecto es `stg`
+  env_mode: "stg", // `prod`, `stg`, `local` para cambiar de ambiente. Por defecto es `stg`
   onOpen: function () {
 
       console.log("Modal abierto");
@@ -36,10 +36,17 @@ let paymentCheckout = new PaymentCheckout.modal({
         */
       console.log("Respuesta de modal");
 
-      // console.log(response)
+      console.log(response)
       const { transaction } = response;
-      const {amount, status, id } = transaction
-      document.getElementById("response").innerHTML = `Su transacción de ${amount} ha sido ${status}, con el codigo ${id}`;
+      const {amount, status, id, message } = transaction
+      if(status === 'failure'){
+        document.getElementById("response").innerHTML = `Su transacción de $ ${amount} con el codigo ${id}, ha sido Rechazada, " ${message} "`;
+      }else if(status === 'success'){
+        document.getElementById("response").innerHTML = `Su transacción de $ ${amount} con el codigo ${id}, ha sido Aprobada, " ${message} "`;
+      }else if(status === 'pending'){
+        document.getElementById("response").innerHTML = `Su transacción de $ ${amount} con el codigo ${id}, La transacción está Pendiente, " ${message} "`;
+      }
+      
   },
 });
 
