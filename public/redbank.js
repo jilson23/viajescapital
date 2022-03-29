@@ -4,7 +4,7 @@ let paymentCheckout = new PaymentCheckout.modal({
   client_app_code: "VIAJESCAPITALSTG-GLP-CLIENT", // Application Code de las credenciales CLIENT
   client_app_key: "WjY2LnuZVAYMaKBxgS0I3REaoRcwcS", // Application Key de las credenciales CLIENT
   locale: "es", // Idioma preferido del usuario (es, en, pt). El inglés se usará por defecto
-  env_mode: "stg", // `prod`, `stg`, `local` para cambiar de ambiente. Por defecto es `stg`
+  env_mode: "prod", // `prod`, `stg`, `local` para cambiar de ambiente. Por defecto es `stg`
   onOpen: function () {
 
       console.log("Modal abierto");
