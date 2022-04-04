@@ -72,10 +72,16 @@ function Nosotros() {
         bienes culturales. Nos acogemos a la resolución 0584 de 2002 por la cual se
         declaran y protegen las especies silvestres amenazadas en el territorio nacional.
       </p>
-      <Download
-        content="Ver Registro Nacional de Turismo"
-        link="../document/rnt-viajes-capital-cali-2019.jpeg"
-      />
+      <div className="grid2">
+        <Download
+          content="Ver Registro Nacional de Turismo Cali"
+          link="../document/registrontcali.pdf"
+        />
+        <Download
+          content="Ver Registro Nacional de Turismo Palmira"
+          link="../document/registrontpalmira.pdf"
+        />
+      </div>
 
       <div className="Nosotros__buttons">
         {enlaces.map((enlace) => (
