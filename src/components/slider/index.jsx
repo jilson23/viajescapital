@@ -10,6 +10,7 @@ function Slider({ data }) {
         options={{
           rewind: true,
           perPage: 5,
+          autoplay: true,
           gap: '1rem',
           breakpoints: {
             500: {
